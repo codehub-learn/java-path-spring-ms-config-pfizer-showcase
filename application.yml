@@ -7,4 +7,4 @@ eureka:
     service-url:
       defaultZone: http://localhost:8100/eureka/
   instance:
-    lease-renewal-interval-in-seconds: 15
+    lease-renewal-interval-in-seconds: 60
