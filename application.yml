@@ -8,3 +8,4 @@ eureka:
       defaultZone: http://localhost:8100/eureka/
   instance:
     lease-renewal-interval-in-seconds: 60
+    instance-id: ${spring.application.name}-${random.uuid}
