@@ -9,3 +9,5 @@ eureka:
   instance:
     lease-renewal-interval-in-seconds: 60
     instance-id: ${spring.application.name}-${random.uuid}
+
+sample: {cipher}4dce62ff013086f3ffd00537f5af21ce64633dfcf3f54e29530ad698ac61d9c0549110f96dcdaedbd3a5f74b6d529a0d
